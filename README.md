@@ -2,7 +2,7 @@
 
 ### Материалы
 [Данные](https://github.com/mbibaeva/CG_Project/blob/master/all_data.csv)  
-[Код]()
+[Код](https://github.com/mbibaeva/CG_Project/blob/master/super_code.R)
 
 ## Рабочая гипотеза
 
