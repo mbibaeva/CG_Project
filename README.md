@@ -1,9 +1,8 @@
 # CG_Project
 
 ### Материалы
-[Данные по "чуть не"](https://github.com/mbibaeva/CG_Project/blob/master/data1.csv)  
-[Данные по "чуть было не"](https://github.com/mbibaeva/CG_Project/blob/master/data2.csv)
-[Код](https://github.com/...)
+[Данные](https://github.com/mbibaeva/CG_Project/blob/master/all_data.csv)  
+[Код]()
 
 ## Рабочая гипотеза
 
@@ -35,6 +34,47 @@
 ## Анализ: дескриптивная статистика
 В этом разделе располагаются таблицы, графики и обсуждение дистрибуции значений в отдельных переменных и взаимной дистрибуции пар переменных.
 Рекомендуются гистограммы, density plots, боксплоты (или violin plots), метрики корреляции и статистической значимости. Если вы используете метрику хи-квадрат, не забывайте посчитать к ней effect size.
+
+[Корреляция](https://github.com/mbibaeva/CG_Project/blob/master/Rplot.pdf)
+
+```
+Call:
+glm(formula = Target ~ Number + Gender + Animacy + Verb_of_speech + 
+    Ger + Verb_time + Object + Protiv1 + Protiv2, family = "binomial", 
+    data = df1)
+
+Deviance Residuals: 
+   Min      1Q  Median      3Q     Max  
+-1.177  -1.177   0.000   1.177   1.177  
+
+Coefficients: (1 not defined because of singularities)
+                  Estimate Std. Error z value Pr(>|z|)
+(Intercept)      4.907e-14  1.937e+00       0        1
+NumberPl        -4.997e-14  2.117e+00       0        1
+NumberSg        -4.580e-14  2.599e+00       0        1
+GenderF          2.073e-14  2.087e+00       0        1
+GenderM          1.707e-14  2.127e+00       0        1
+GenderN          2.016e-14  2.199e+00       0        1
+GenderPl         2.198e-14  1.475e+00       0        1
+GenderPL                NA         NA      NA       NA
+Animacy0        -8.571e-15  6.660e-01       0        1
+Animacy1        -4.846e-15  5.955e-01       0        1
+Verb_of_speech0 -1.550e-14  1.043e+00       0        1
+Verb_of_speech1 -1.577e-14  1.103e+00       0        1
+Ger             -1.355e-17  3.983e-01       0        1
+Verb_timePres   -2.895e-16  1.452e+00       0        1
+Object          -2.221e-16  1.640e-01       0        1
+Protiv1         -1.092e-15  4.081e-01       0        1
+Protiv2         -1.951e-15  4.882e-01       0        1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 277.26  on 199  degrees of freedom
+Residual deviance: 277.26  on 184  degrees of freedom
+AIC: 309.26
+
+Number of Fisher Scoring iterations: 2
+```
 
 ## Мультифакторный анализ
 Здесь рекомендуется использовать один из следующих подходов к моделированию/анализу данных:  
