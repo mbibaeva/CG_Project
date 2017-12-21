@@ -9,7 +9,7 @@ glm(formula = Target ~ Number + Gender + Animacy + Verb_of_speech + Ger + Verb_t
 
 install.packages("corrplot")
 library('corrplot')
-loaddata <- read.csv('/Users/Kartozianstvo/Desktop/вышечка/cxg_2017/encode.csv', sep=',')
+loaddata <- read.csv('encode.csv', sep=',')
 df = subset(loaddata, select = -c(X) )
 corrmatr <- cor(df)
 res1 <- cor.mtest(df, conf.level = .99)
