@@ -30,43 +30,38 @@
 
 ## Анализ: дескриптивная статистика
 
-[Корреляция](https://github.com/mbibaeva/CG_Project/blob/master/Rplot.pdf)
-
+### Summary
 ```
-Call:
-glm(formula = Target ~ Number + Gender + Animacy + Verb_of_speech + 
-    Ger + Verb_time + Object + Protiv1 + Protiv2, family = "binomial", 
-    data = df1)
-
 Deviance Residuals: 
-   Min      1Q  Median      3Q     Max  
--1.177  -1.177   0.000   1.177   1.177  
+    Min       1Q   Median       3Q      Max  
+-2.4315  -1.0445   0.1633   0.9885   1.9108  
 
 Coefficients: (1 not defined because of singularities)
-                  Estimate Std. Error z value Pr(>|z|)
-(Intercept)      4.907e-14  1.937e+00       0        1
-NumberPl        -4.997e-14  2.117e+00       0        1
-NumberSg        -4.580e-14  2.599e+00       0        1
-GenderF          2.073e-14  2.087e+00       0        1
-GenderM          1.707e-14  2.127e+00       0        1
-GenderN          2.016e-14  2.199e+00       0        1
-GenderPl         2.198e-14  1.475e+00       0        1
-GenderPL                NA         NA      NA       NA
-Animacy0        -8.571e-15  6.660e-01       0        1
-Animacy1        -4.846e-15  5.955e-01       0        1
-Verb_of_speech0 -1.550e-14  1.043e+00       0        1
-Verb_of_speech1 -1.577e-14  1.103e+00       0        1
-Ger             -1.355e-17  3.983e-01       0        1
-Verb_timePres   -2.895e-16  1.452e+00       0        1
-Object          -2.221e-16  1.640e-01       0        1
-Protiv1         -1.092e-15  4.081e-01       0        1
-Protiv2         -1.951e-15  4.882e-01       0        1
+                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)     -2.958e+01  1.730e+03  -0.017  0.98636    
+NumberPl        -2.545e+00  2.058e+03  -0.001  0.99901    
+NumberSg         1.333e+01  2.521e+03   0.005  0.99578    
+GenderF         -5.089e-09  2.058e+03   0.000  1.00000    
+GenderM          1.503e-01  2.058e+03   0.000  0.99994    
+GenderN          4.871e-01  2.058e+03   0.000  0.99981    
+GenderPl         1.577e+01  1.455e+03   0.011  0.99135      
+Animacy          1.231e+00  3.821e-01   3.223  0.00127 ** 
+Verb_of_speech0  1.598e+01  9.355e+02   0.017  0.98638    
+Verb_of_speech1  1.524e+01  9.355e+02   0.016  0.98700    
+Ger             -2.266e-01  3.640e-01  -0.622  0.53371    
+Verb_timePres    1.792e+00  1.204e+00   1.488  0.13678    
+Object          -6.484e-01  1.607e-01  -4.036 5.45e-05 ***
+Protiv1         -9.555e-01  4.186e-01  -2.283  0.02245 *  
+Protiv2         -6.649e-01  4.390e-01  -1.515  0.12984    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 (Dispersion parameter for binomial family taken to be 1)
 
-    Null deviance: 277.26  on 199  degrees of freedom
-Residual deviance: 277.26  on 184  degrees of freedom
-AIC: 309.26
+    Null deviance: 415.89  on 299  degrees of freedom
+Residual deviance: 360.72  on 285  degrees of freedom
+AIC: 390.72
 
-Number of Fisher Scoring iterations: 2
+Number of Fisher Scoring iterations: 14
 ```
+### [Корреляция](https://github.com/mbibaeva/CG_Project/blob/master/Rplot.pdf)
