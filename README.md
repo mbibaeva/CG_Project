@@ -64,7 +64,7 @@ AIC: 390.72
 
 Number of Fisher Scoring iterations: 14
 ```
-# Number
+#### Number
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/number.png)
 # Gender
