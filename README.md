@@ -75,4 +75,33 @@ Number of Fisher Scoring iterations: 14
 
 [Код для матрицы корреляций](https://github.com/mbibaeva/CG_Project/blob/master/code_to_encode.py)
 
-### 
+## Мультифакторный анализ
+
+### Статистически важные параметры
+
+```
+Call:
+glm(formula = Target ~ Animacy + Object + Protiv1, family = "binomial", 
+    data = df1)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.0605  -1.0473   0.0604   1.0906   1.8801  
+
+Coefficients:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  -0.3141     0.3339  -0.941 0.346846    
+Animacy       1.1547     0.3201   3.607 0.000309 ***
+Object       -0.6330     0.1557  -4.064 4.82e-05 ***
+Protiv1      -0.9895     0.4043  -2.447 0.014394 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 415.89  on 299  degrees of freedom
+Residual deviance: 376.54  on 296  degrees of freedom
+AIC: 384.54
+
+Number of Fisher Scoring iterations: 4
+```
