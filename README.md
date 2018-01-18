@@ -207,3 +207,35 @@ AIC: 384.54
 
 Number of Fisher Scoring iterations: 4
 ```
+* без значимых параметров
+```
+Call:
+glm(formula = Target ~ Number + Gender + Verb_of_speech + Ger + 
+    Verb_time + Protiv2, family = "binomial", data = df1)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.2798  -1.0893  -0.1923   1.0329   1.5657  
+
+Coefficients:
+               Estimate Std. Error z value Pr(>|z|)  
+(Intercept)     -0.4325     1.4677  -0.295   0.7682  
+NumberSg         0.1925     1.4719   0.131   0.8960  
+GenderM          0.5899     0.2954   1.997   0.0459 *
+GenderN         -0.1629     0.6188  -0.263   0.7923  
+GenderNone       0.4457     1.4748   0.302   0.7625  
+Verb_of_speech  -0.5608     0.3675  -1.526   0.1270  
+Ger             -0.2122     0.3467  -0.612   0.5405  
+Verb_timePres    2.1715     1.1774   1.844   0.0651 .
+Protiv2         -0.6382     0.4089  -1.561   0.1186  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 415.89  on 299  degrees of freedom
+Residual deviance: 400.51  on 291  degrees of freedom
+AIC: 418.51
+
+Number of Fisher Scoring iterations: 4
+```
