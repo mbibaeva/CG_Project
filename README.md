@@ -84,17 +84,18 @@ Number of Fisher Scoring iterations: 14
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/animacy.png)
 
-0 - неодушевлённость
-1 - одушевлённость
-2 - спорные случаи (например, обозначения больших группу людей)
+- 0 - неодушевлённость
+- 1 - одушевлённость
+- 2 - спорные случаи (например, обозначения больших группу людей)
 ### Наличие и тип дополнения: значимы
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/object.png)
 
-0 - дополнения нет
-1 - прямое дополнение
-2 - косвенное дополнение
-3 - странные и непрямые значения
+- 0 - дополнения нет
+- 1 - прямое дополнение
+- 2 - косвенное дополнение
+- 3 - странные и непрямые значения
+
 ### Глагол речи
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/verb_of_speech.png)
@@ -102,9 +103,14 @@ Number of Fisher Scoring iterations: 14
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/tense.png)
 
+Вообще нет будущего времени, что понятно.
+
 ### Форма глагола
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/gerund.png)
+
+- 1 - причастие
+- 2 - деепричастие
 ### Противительный союз в следующей клаузе: значим
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/protiv1.png)
