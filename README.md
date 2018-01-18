@@ -120,6 +120,21 @@ Number of Fisher Scoring iterations: 14
 
 ## Мультифакторный анализ
 
+### Random Forest
+```
+                чуть было    чуть не MeanDecreaseAccuracy MeanDecreaseGini
+Number          0.9878046  1.6466722             2.460525         1.984588
+Gender         -2.0754550  4.4842089             1.488494         7.102832
+Animacy        27.5475716 32.5204358            39.054930        16.574628
+Verb_of_speech 10.1258536 -5.6673702             2.949792         3.244308
+Ger             4.1094017  9.0531065             9.111413         4.024639
+Verb_time       5.9091805 -0.9130392             2.856975         1.572379
+Object         17.9039930 20.7726678            24.089646        17.576813
+Protiv1         8.3857913  3.2124060             7.964009         3.830399
+Protiv2         3.3317542  3.0655593             4.555287         3.603058
+```
+![alt text](https://github.com/mbibaeva/CG_Project/blob/master/randomforestforALL.png)
+
 ### Статистически важные параметры
 
 ```
@@ -148,4 +163,3 @@ AIC: 384.54
 
 Number of Fisher Scoring iterations: 4
 ```
-### Random Forest
