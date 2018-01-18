@@ -135,8 +135,42 @@ Protiv2         3.3317542  3.0655593             4.555287         3.603058
 ```
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/randomforestforALL.png)
 
+Не совсем понимаю, каким образом и почему среди более значимых параметров оказался род.
+
 ### Статистически важные параметры
 
+* с родом
+```
+Call:
+glm(formula = Target ~ Animacy + Gender + Object + Protiv1, family = "binomial", 
+    data = df1)
+
+Deviance Residuals: 
+     Min        1Q    Median        3Q       Max  
+-2.11797  -1.04181   0.05768   1.05261   1.95127  
+
+Coefficients:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -0.48538    0.40130  -1.210  0.22646    
+Animacy      1.20134    0.37388   3.213  0.00131 ** 
+GenderM      0.21339    0.32277   0.661  0.50854    
+GenderN      0.49874    0.67545   0.738  0.46029    
+GenderNone  -0.06009    0.39250  -0.153  0.87832    
+Object      -0.62850    0.15693  -4.005  6.2e-05 ***
+Protiv1     -0.97079    0.40650  -2.388  0.01693 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 415.89  on 299  degrees of freedom
+Residual deviance: 375.22  on 293  degrees of freedom
+AIC: 389.22
+
+Number of Fisher Scoring iterations: 4
+```
+
+* без рода
 ```
 Call:
 glm(formula = Target ~ Animacy + Object + Protiv1, family = "binomial", 
