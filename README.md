@@ -64,6 +64,9 @@ AIC: 390.72
 
 Number of Fisher Scoring iterations: 14
 ```
+
+###
+
 ### Корреляция
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/Rplot.png)
