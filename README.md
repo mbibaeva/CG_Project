@@ -69,6 +69,7 @@ Number of Fisher Scoring iterations: 14
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/Rplot.png)
 
 [Матрица корреляций](https://github.com/mbibaeva/CG_Project/blob/master/encode.csv)
+
 [Код для матрицы корреляций](https://github.com/mbibaeva/CG_Project/blob/master/code_to_encode.py)
 
 ### 
