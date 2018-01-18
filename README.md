@@ -140,12 +140,6 @@ Protiv2         3.3317542  3.0655593             4.555287         3.603058
 ### Дерево
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/tree1.png)
-```
-   PredictCART
-     0  1
-  0 37  8
-  1 23 22
-```
 
 ### Статистически важные параметры
 
