@@ -64,9 +64,30 @@ AIC: 390.72
 
 Number of Fisher Scoring iterations: 14
 ```
+# Number
 
-###
+![alt text](https://github.com/mbibaeva/CG_Project/blob/master/number.png)
+# Gender
 
+![alt text](https://github.com/mbibaeva/CG_Project/blob/master/gender.png)
+# Animacy
+
+![alt text](https://github.com/mbibaeva/CG_Project/blob/master/animacy.png)
+# Object
+
+![alt text](https://github.com/mbibaeva/CG_Project/blob/master/object.png)
+# Verb of speech
+
+![alt text](https://github.com/mbibaeva/CG_Project/blob/master/verb_of_speech.png)
+# Verb Tense 
+
+![alt text](https://github.com/mbibaeva/CG_Project/blob/master/tense.png)
+# Protiv1
+
+![alt text](https://github.com/mbibaeva/CG_Project/blob/master/protiv1.png)
+# Protiv2
+
+![alt text](https://github.com/mbibaeva/CG_Project/blob/master/protiv2.png)
 ### Корреляция
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/Rplot.png)
@@ -105,3 +126,4 @@ AIC: 384.54
 
 Number of Fisher Scoring iterations: 4
 ```
+### Random Forest
