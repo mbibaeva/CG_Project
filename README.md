@@ -73,25 +73,38 @@ Number of Fisher Scoring iterations: 14
 
 [Код для матрицы корреляций](https://github.com/mbibaeva/CG_Project/blob/master/code_to_encode.py)
 
-### Number
+### Число подлежащего
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/number.png)
 
-### Gender
+### Род подлежащего
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/gender.png)
-### Одушевлённость: значима
+### Одушевлённость подлежащего: значима
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/animacy.png)
-### Наличие и тип дополнение: значимы
+
+0 - неодушевлённость
+1 - одушевлённость
+2 - спорные случаи (например, обозначения больших группу людей)
+### Наличие и тип дополнения: значимы
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/object.png)
-### Verb of speech
+
+0 - дополнения нет
+1 - прямое дополнение
+2 - косвенное дополнение
+3 - странные и непрямые значения
+### Глагол речи
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/verb_of_speech.png)
-### Verb Tense 
+### Время глагола 
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/tense.png)
+
+### Форма глагола
+
+![alt text](https://github.com/mbibaeva/CG_Project/blob/master/gerund.png)
 ### Противительный союз в следующей клаузе: значим
 
 ![alt text](https://github.com/mbibaeva/CG_Project/blob/master/protiv1.png)
